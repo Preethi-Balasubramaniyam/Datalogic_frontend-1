@@ -1,4 +1,3 @@
-import React from "react";
 import "../../styles/whychoose.css"
 import { Container, Row, Col } from "react-bootstrap";
 import image1 from "../../assets/whychoose/1.png";

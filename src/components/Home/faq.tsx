@@ -1,4 +1,3 @@
-import React from "react";
 import "../../styles/faq.css";
 import { Container, Row, Col } from "react-bootstrap";
 import Accordion from "react-bootstrap/Accordion";

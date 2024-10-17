@@ -1,4 +1,3 @@
-import React from "react";
 import { Container, Row, Col, Card, Form, Button } from "react-bootstrap";
 import "../../styles/keyfeatures.css";
 import icon1 from "../../assets/features/1.svg";

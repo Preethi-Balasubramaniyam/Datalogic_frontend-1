@@ -1,4 +1,3 @@
-import React from "react";
 import "../../styles/testimonial.css";
 import { Container, Row, Col } from "react-bootstrap";
 import { Swiper, SwiperSlide } from "swiper/react";

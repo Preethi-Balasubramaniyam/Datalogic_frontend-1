@@ -1,4 +1,3 @@
-import React from "react";
 import "../../styles/cta.css";
 import { Container, Row, Col } from "react-bootstrap";
 import image1 from "../../assets/cta/1.svg";
