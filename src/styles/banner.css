@@ -1,0 +1,161 @@
+/* General styles */
+.banner-container {
+  width: 100%;
+  height: 550px;
+  position: relative;
+}
+
+.banner-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mySwiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next {
+  content: url("../assets/banner/3.svg") !important;
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev {
+  content: url("../assets/banner/4.svg") !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: #fff !important;
+  border-radius: 0% !important;
+  width: 20px !important;
+  height: 5px !important;
+}
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  left: 5% !important;
+}
+
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  right: 5% !important;
+}
+
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  text-align: start !important;
+  left: 11.5% !important;
+  top: 75% !important;
+}
+
+/* Banner text styles */
+.banner-text {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: left;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.banner-text span {
+  font-size: 40px;
+}
+
+.banner-text p {
+  width: 55%;
+}
+
+.banner-btn {
+  background: #005da9;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.cta1-img {
+  width: 25px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .banner-container {
+    height: 400px; /* Adjust banner height for smaller screens */
+  }
+
+  .banner-text {
+    width: 70%; /* Full width text block */
+    top: 40%; /* Adjust positioning */
+    left: 50%;
+    padding: 8px;
+    font-size: 14px;
+    transform: translate(-50%, -50%);
+  }
+
+  .banner-text span {
+    font-size: 20px; /* Adjust font size for mobile */
+  }
+
+  .banner-text p {
+    width: 100%; /* Allow paragraph to take full width on mobile */
+    font-size: 12px; /* Reduce font size */
+  }
+
+  .banner-btn {
+    font-size: 12px; /* Adjust button font size */
+    padding: 8px;
+  }
+
+  .cta1-img {
+    width: 15px !important;
+    height: 15px !important;
+  }
+
+  /* Adjust swiper bullets for smaller screens */
+  .swiper-pagination-bullet {
+    width: 15px !important;
+    height: 5px !important;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none; /* Hide navigation arrows on mobile to save space */
+  }
+}
+.cta1-img{
+  width: 30px !important;
+  height: 30px !important;
+}
+@media (max-width: 576px) {
+  .banner-container {
+    height: auto; /* Smaller height for very small screens */
+  }
+.cta1-img{
+  width: 10px !important;
+  height: 10px !important;
+}
+  .banner-text span {
+    font-size: 18px; /* Further reduce title size */
+  }
+
+  .banner-text p {
+    font-size: 11px;
+  }
+
+  .banner-btn {
+    font-size: 10px;
+    padding: 6px;
+  }
+}

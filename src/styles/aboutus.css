@@ -1,0 +1,55 @@
+#aboutus {
+  background: transparent url('../assets/aboutus/bg.png') 0% 0% no-repeat padding-box;
+  background-size: cover;
+  opacity: 1;
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.image1 {
+  width: 250px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.image2 {
+
+  border:8px solid #fff;
+  border-radius: 15px;
+  width: 230px;
+  position: absolute;
+  top: 155px;
+  left: 160px;
+}
+
+.image3 {
+  position: absolute !important;
+  width: 40%;
+}
+
+.about {
+  height: 500px; /* Fixed height for scrolling */
+  overflow-y: auto; /* Scrollable content inside the about section */
+  padding-right: 15px; /* Optional: Adding padding to avoid content overlap with scrollbar */
+}
+
+.about::-webkit-scrollbar {
+  display: none !important; /* Hide the scrollbar */
+}
+
+/* Hide .image2 for mobile devices */
+@media (max-width: 768px) {
+  .parent .image2 {
+    display: none !important;
+  }
+
+  .about {
+    height: auto; /* Allow content to flow normally on mobile */
+    overflow-y: visible; /* No need for scrolling on smaller devices */
+  }
+}

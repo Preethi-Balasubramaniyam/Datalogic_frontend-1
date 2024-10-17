@@ -1,0 +1,86 @@
+#testimonial {
+    background-image: url("../assets/testimonial/Pr.jpg");
+}
+
+/* Positioning for the navigation arrows and pagination dots */
+#testimonial .swiper-controls {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+#testimonial .swiper-navigation {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+#testimonials .swiper-button-prev,
+.swiper-button-next {
+
+    background-color: #fff;
+    color: #000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.testimonial-slide {
+    position: relative;
+}
+
+#testimonials .swiper-button-next:after,
+.swiper-rtl .swiper-button-prev {
+    content: url("../assets/testimonial/next.svg") !important;
+}
+
+#testimonials .swiper-button-prev:after,
+.swiper-rtl .swiper-button-next {
+    content: url("../assets/testimonial/prev.svg") !important;
+
+}
+
+#testimonial .swiper-pagination {
+    margin-top: 10px;
+}
+
+#testimonial .swiper-pagination-bullet {
+    background-color: #000 !important;
+    opacity: 1;
+}
+
+#testimonial .swiper-pagination-bullet-active {
+    background-color: #007bff !important;
+    /* Active bullet color */
+}
+
+.testimonial-heading {
+    font-size: 2.55rem;
+    font-weight: 450;
+    padding: 20px;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+.testimonial-slide {
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    border: 0.5px solid #70707080;
+    border-radius: 20px;
+}
+
+.testimonial-slide p {
+    font-size: 1rem;
+    color: #333;
+}
+
+#testimonial .testimonial-slide span {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #555;
+}
+
+.qoute-icon {
+    margin-top: -50px;
+}

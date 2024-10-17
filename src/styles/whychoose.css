@@ -1,0 +1,24 @@
+#why-us{
+    border-top: 2px solid #005DA9;
+    margin: 30px;
+    padding: 25px 35px;
+    background-color: #F7F8FB;
+    overflow: hidden;
+    position: absolute;
+    left: 25%;
+}
+.why img{
+ height: fit-content;
+ padding: 8px;
+ padding-right: 5px;
+}
+.why-img1{
+    width: 80%;
+}
+@media  (max-width:768px) {
+    #why-us{ 
+        position: relative;
+        left: 0%;
+        flex-direction:column;
+    }  
+}

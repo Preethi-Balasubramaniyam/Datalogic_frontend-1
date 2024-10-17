@@ -1,0 +1,86 @@
+/* Fullscreen mega menu */
+.megamenu-services {
+    width: 100vw; /* Full screen width */
+    padding: 20px;
+    background-color: #fff; /* White background */
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Adjust dropdown position */
+  .dropdown-menu[data-bs-popper] {
+    left: 0 !important; /* Make sure it's properly aligned */
+    right: 0 !important; /* Center the menu */
+    width: 100%; /* Ensure full width */
+  }
+  
+  /* Ensure the dropdown takes full width in smaller screens */
+  @media (max-width: 768px) {
+    .megamenu-services .dropdown-menu {
+      width: 100vw; /* Full width on smaller screens */
+    }
+  }
+  
+  /* Other customizations */
+  .megamenu-services .col {
+    padding: 10px 20px;
+  }
+  .dropdown-toggle::after {
+    display: none !important;
+  }
+  .dropdown-toggle-icon {
+    transition: transform 0.3s ease;
+  }
+  
+  .rotate-icon {
+    transform: rotate(180deg);
+  }
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #000;
+  }
+  
+  /* Hover effect for dropdown items */
+  .dropdown-item:focus,
+  .dropdown-item:hover {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+  .dropdown-item.active,
+  .dropdown-item:active {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+  .nav-item .dropdown-item {
+    font-size: 18px !important;
+    color: #5d5d5d;
+    opacity: 1;
+    position: relative;
+    padding-right: 40px; /* Space for the arrow */
+  }
+  
+  .dropdown-item::after {
+    content: url("../assets/header/18.svg");
+    position: absolute;
+    padding-left: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  /* Show Arrow on Hover */
+  .nav-item .dropdown-item:hover::after {
+    color: #045C5D;
+    opacity: 1;
+  }
+  
+  /* Offcanvas Body */
+  .offcanvas-body {
+    background: #045C5D 0% 0% no-repeat padding-box !important;
+  }
+  

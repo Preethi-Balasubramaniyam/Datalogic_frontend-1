@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+#datalogic-header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: white; /* Ensure the header background is visible */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+}
+
+@font-face {
+  font-family: "ManropeRegular";
+  src: local("Manrope"),
+    url("./assets/font/Manrope-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "ManropeBold";
+  src: local("Manrope"),
+    url("./assets/font/Manrope-Bold.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "ManropeLight";
+  src: local("Manrope"),
+    url("./assets/font/Manrope-Light.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "ManropeMedium";
+  src: local("Manrope"),
+    url("./assets/font/Manrope-Medium.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "ManropeSemiBold";
+  src: local("Manrope"),
+    url("./assets/font/Manrope-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+}
+.manropeRegular{
+  font-family: ManropeRegular;
+}
+.manropeBold{
+  font-family: ManropeBold;
+}
+.manropeLight{
+  font-family: ManropeLight;
+}
+.manropeMedium{
+  font-family: ManropeMedium;
+}
+.manropeSemiBold{
+  font-family: ManropeSemiBold;
+}
+
+/* Color Code */
+
+:root{
+  --Light-blue:#A7D4D5;
+ --Mid-gray:#808080;
+ --Mid-blue:#005DA9;
+ --Light-White : #F7F8FB;
+
+}
+.gap10{
+  gap: 10px;
+}
+.gap20{
+  gap: 20px;
+}
+.size12{
+  font-size: 12px;
+}
+.size14{
+  font-size: 14px;
+}
+.size16{
+  font-size: 16px;
+}
+.size18{
+  font-size: 18px;
+}
+.size20{
+  font-size: 20px;
+}
+.size22{
+  font-size: 22px;
+}
+.size24{
+  font-size: 24px;
+}
+.size28{
+  font-size: 28px;
+}
+.size28{
+  font-size: 38px;
+}
+
+
+.Light-White{
+  color: #F7F7F7;
+}
+.Light-blue{
+  color: #A7D4D5;
+}
+.dark-gray{
+  color: #666666;
+}
+.Light-grayblue{
+  color: #648BAC;
+}
+.Mid-gray{
+  color: #808080;
+}
+.Trans-gray{
+  color: #C7C7D2;
+}
+.Mid-blue{
+  color: #005DA9;
+}
+.Dark-blue{
+  color: #00213C;
+}
+.sky-blue{
+  color: #04B2E2;
+}
+.dark-midblue{
+ color: #002E54;
+}
+.light-voiletblue{
+  color: #3B5998;
+}
+.dark-skyblue{
+  color: #3B5998;
+}
+.Light-graywhite{
+  color: #3B5998;
+}
+.dark-orange{
+  color: #FF0000;
+}
+.mid-black{
+  color: #00002A;
+}
+.light-skylite{
+  color: #C2DDDD;
+}
+.dark-green{
+  color: #045C5D;
+}
+.light-graylite{
+  color: #C9C9E0;
+}
+.mid-graylite{
+  color: #6F6F6F;
+}

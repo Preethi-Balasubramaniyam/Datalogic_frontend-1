@@ -1,0 +1,51 @@
+.keyfeatures-container {
+  background: transparent linear-gradient(180deg, #045c5d21 0%, #ffffff 100%) 0%
+    0% no-repeat padding-box;
+}
+.subheading {
+  color: #005da9;
+  font-weight: 500;
+}
+
+.card1 {
+  padding: 1.5rem !important;
+  background: #f2f2ff 0% 0% no-repeat padding-box;
+  border: 0.5px solid #00000033;
+  border-radius: 6px;
+  opacity: 1;
+}
+.card2 {
+  padding: 1.5rem !important;
+  background: #f2f2f8 0% 0% no-repeat padding-box;
+  border: 0.5px solid #00000033;
+  border-radius: 6px;
+  opacity: 1;
+}
+.card3 {
+  padding: 1.5rem !important;
+  background: #fff7f6 0% 0% no-repeat padding-box;
+  border: 0.5px solid #0000002e;
+  border-radius: 6px;
+  opacity: 1;
+}
+.card4 {
+  padding: 1.5rem !important;
+  background: #f5f8ff 0% 0% no-repeat padding-box;
+  border: 0.5px solid #0000002e;
+  border-radius: 6px;
+  opacity: 1;
+}
+.career-form {
+  padding: 30px !important;
+  background: #648bac 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  opacity: 0.93;
+}
+.career-btn {
+  background: #005da9 0% 0% no-repeat padding-box !important;
+  border-radius: 5px !important;
+  opacity: 1 !important;
+}
+#career .form-label{
+    display: none !important;
+}

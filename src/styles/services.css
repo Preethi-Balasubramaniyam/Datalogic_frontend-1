@@ -1,0 +1,187 @@
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+.services-slider {
+  background: #070732 url('../assets/services/bg.png') 0% 0% no-repeat padding-box;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+
+
+.services-slider {
+  position: relative;
+}
+
+.slider-image {
+  position: relative;
+}
+
+.slider-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
+}
+
+.slider-image {
+  padding: 0% !important;
+}
+
+/* Overlay container */
+.slider-image::before {
+  padding: 0%;
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.9));
+  z-index: 1;
+}
+
+/* Title on overlay */
+.slider-image .overlay-title {
+  position: absolute;
+  bottom: 50px;
+  left: 0px;
+  color: white;
+  z-index: 2;
+  font-size: 4rem;
+}
+
+.service-content {
+  background: #C1F2FF 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.slider-image .overlay-content {
+  position: absolute;
+  bottom: 20px;
+  /* Adjust the distance from the bottom */
+  left: 20px;
+  /* Padding for the content */
+  color: white;
+  z-index: 2;
+}
+
+/* Title styling inside overlay */
+.slider-image .overlay-content .overlay-title {
+  margin-bottom: 10px;
+}
+
+/* Button styling inside overlay */
+.slider-image .overlay-content .explore-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.slider-image .overlay-content .explore-btn:hover {
+  background-color: #005DA9;
+}
+
+.slider-arrow {
+  width: 35px !important;
+}
+
+.slider-count {
+  left: 0px !important;
+  right: 20px !important;
+}
+
+.slide-count {
+  padding: 10px !important;
+}
+
+.service-content ul {
+  list-style-image: url('../assets/services/check.svg');
+}
+
+.service-content li {
+  padding: 5px !important;
+}
+
+
+/* Style the thumbnail images */
+.thumbnail-slider img {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+/* Static overlay effect for each thumbnail */
+.thumbnail-slider .swiper-slide {
+  position: relative;
+  overflow: hidden;
+  margin: 10px !important;
+}
+
+/* Make the overlay always visible */
+.thumbnail-slider .swiper-slide .thumbnail-wrapper::before {
+  padding: 0%;
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.9));
+  z-index: 1;
+}
+
+.img-thumbnail {
+  width: 200px !important;
+  height: 215px !important;
+  padding: 0% !important;
+  border: none !important;
+  border-radius: 0px !important;
+
+}
+
+/* Title overlay with Image4 (always visible) */
+.thumbnail-slider .swiper-slide .overlay-title {
+  position: absolute;
+  top: 75%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  opacity: 1;
+  /* Always visible */
+}
+
+.thumbnail-slider .overlay-title img {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.other-services-thumbnails {
+  padding: 40px;
+  background: #E5E9F7 0% 0% no-repeat padding-box;
+  opacity: 1;
+  display: flex;
+  justify-content: flex-end;
+  /* Align thumbnails at the end horizontally */
+  align-items: flex-end;
+  /* Align thumbnails at the bottom */
+  margin-top: auto;
+}
+@media  (max-width: 768px){
+.services-slider{
+  display: none;
+}
+}

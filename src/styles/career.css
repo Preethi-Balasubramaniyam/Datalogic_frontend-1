@@ -1,0 +1,49 @@
+#careers .line {
+    width: 20px;
+    height: 4px;
+    background-color: #005DA9 !important;
+    margin: 0px 0px 0px 5px;
+}
+
+#careers .careerImg {
+    width: 90%;
+}
+
+#careers button {
+    background-color: var(--Mid-blue);
+    color: white;
+}
+
+#careers .HappyDiv {
+    padding: 20px 20px;
+    background-color: var(--Light-White);
+    border: 0.5px solid #CBD5D5;
+    border-radius: 8px;
+}
+
+#careers .searchjob {
+    background-color: var(--Light-White);
+    padding: 30px 0px;
+}
+
+.searchscroll {
+    overflow-x: scroll;
+    flex-wrap: nowrap !important;
+}
+
+.searchscroll::-webkit-scrollbar {
+    width: 0px;
+}
+
+#careers .searchScrollCol {
+    background-color: white;
+    border-radius: 8px;
+    border: 0.5px solid #DCDCDC;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.gap10{
+    gap: 10px !important;
+}

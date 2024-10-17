@@ -1,0 +1,15 @@
+#footer {
+  background: #00213c 0% 0% no-repeat padding-box;
+}
+.text-blue {
+  color: #04b2e2;
+}
+#copyrights-footer {
+  background: #002e54 0% 0% no-repeat padding-box !important;
+}
+.cta-3 {
+  width: fit-content !important;
+  background: #005da9 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+}

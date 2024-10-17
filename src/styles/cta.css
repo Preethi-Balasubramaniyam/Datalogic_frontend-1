@@ -1,0 +1,21 @@
+#cta-3 {
+  background: #045c5d 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+  width:30% !important;
+  color: #fff !important;
+}
+.last-cta{
+    border: 2px solid #045C5D;
+    border-radius: 20px;
+    padding: 20px 40px;
+    opacity:0.9;
+}
+.cta-width{
+    width: 100%;
+}
+@media  (max-width:768px) {
+    .last-cta{
+        flex-direction:column;
+    }  
+}
