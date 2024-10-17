@@ -1,4 +1,3 @@
-import React from "react";
 import "../../../styles/footer.css";
 import { Container, Row, Col } from "react-bootstrap";
 import Image1 from "../../../assets/header/5.svg";

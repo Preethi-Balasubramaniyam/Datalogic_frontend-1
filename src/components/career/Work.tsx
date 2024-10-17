@@ -1,6 +1,5 @@
 import { Row, Col, Container } from "react-bootstrap";
 import CareerLeft from '../../assets/career/careerRight.png'
-import Image4 from "../../assets/banner/cta.svg";
 
 const Work = () => {
   return (

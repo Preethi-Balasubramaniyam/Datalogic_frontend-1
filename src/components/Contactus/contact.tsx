@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col, Card, Form, Button } from "react-bootstrap";
+import { Container, Row, Col,  Form, Button } from "react-bootstrap";
 import "../../styles/keyfeatures.css";
 
 import Image4 from "../../assets/banner/cta.svg";
