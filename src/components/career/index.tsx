@@ -9,7 +9,7 @@ const index = () => {
 
   return (
     <div id="careers">
-      <Banner title='Careers' breadcrumb=""/>
+      <Banner title='Careers' breadcrumb="Resume"/>
       <Careers/>
       <Work/>
       <Search/>
