@@ -1,5 +1,3 @@
-// Banner.js
-
 import "../../styles/banner.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";

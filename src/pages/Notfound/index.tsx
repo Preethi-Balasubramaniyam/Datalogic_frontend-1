@@ -1,4 +1,3 @@
-// src/pages/NotFound.js
 
 const NotFound = () => {
   return (
