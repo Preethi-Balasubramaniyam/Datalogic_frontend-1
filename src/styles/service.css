@@ -1,0 +1,73 @@
+#services-banner {
+    background-image: url("../assets/software/banner.png");
+}
+
+.service-banner-content {
+    width: 75% !important;
+    font-weight: 400 !important;
+}
+
+#service-section-2 {
+    background-image: url("../assets/software/bg.png");
+}
+
+#service-section-2 .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #0072BB !important;
+    background-color: #fff !important;
+    border: none !important;
+    border-radius: 0.50rem !important;
+}
+
+/* Style for Nav Items */
+#service-section-2 .nav-link {
+    position: relative;
+    padding: 10px 20px;
+    transition: color 0.3s ease;
+    color: #C5C5C5;
+    border-radius: 0.50rem;
+    border: 2px solid #e1e1e1;
+    margin: 10px 0px;
+}
+
+#service-section-2 .nav-link.active {
+    color: #fff !important;
+    /* Active tab text color */
+    background-color: #007bff;
+    /* Change active tab background color */
+}
+
+#service-section-2 .nav-link.active::before {
+    content: '';
+    position: absolute;
+    top: 28%;
+    /* Start from the top of the tab */
+    right: -8px;
+    /* Place the triangle outside the tab to the right */
+    width: 0;
+    border-left: 10px solid #fff;
+    /* Triangle color (matches active tab) */
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+#service-section-2 .tab-content {
+    position: relative;
+    margin-top: 20px;
+}
+
+#service-section-2 .tab-pane {
+    color: #fff;
+    height: 400px;
+    overflow-y: auto;
+    /* Scrollable content inside the about section */
+}
+
+#service-section-2 .tab-pane::-webkit-scrollbar {
+    display: none !important;
+    /* Hide the scrollbar */
+}
+
+.swiper-wrapper {
+    text-align: center !important;
+}

@@ -7,6 +7,8 @@ import Career from "./pages/Career";
 
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Job from "./components/career/Job";
+import Software from "./pages/Services/Software-Development";
 
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
         <Route path="/about/" element={<About />} />
         <Route path="/contact-us/" element={<ContactUs />} />
         <Route path="/career/" element={<Career />} />
+        <Route path="/job/" element={<Job />} />
+        <Route path="services/software-development/" element={<Software />} />
 
         <Route path="*" element={<NotFound />} />
       </Routes>
