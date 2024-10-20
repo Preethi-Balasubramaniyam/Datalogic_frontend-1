@@ -2,7 +2,7 @@ import { Breadcrumb, Col, Container } from "react-bootstrap";
 import "../../styles/banner2.css";
 
 type Props = {
-  title: string;
+  title?: string;
   breadcrumb?: string;
 };
 
