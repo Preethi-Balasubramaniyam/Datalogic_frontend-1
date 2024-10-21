@@ -17,8 +17,8 @@ import { Container } from "react-bootstrap";
 const TechStack = () => {
   return (
     <Container  className="my-5 py-5" >
-      <h4 className="text-center subheading">Tech Stack
-      <span className="line"></span>
+      <h4 className="text-center d-block subheading">Tech Stack
+     
       </h4>
       <h2 className="h1 text-center pb-3">Technology Expertise</h2>
       <Swiper
