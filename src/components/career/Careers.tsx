@@ -8,10 +8,10 @@ const Careers = () => {
         <div>
             <Container>
                 <Row className="m-4 pt-4">
-                    <Col>
+                    <Col lg={6}>
                         <img src={CareerLeft} alt="" className="careerImg"/>
                     </Col>
-                    <Col>
+                    <Col lg={6}>
                         <Row className="d-flex gap10">
                             <Col lg={12} className="d-flex align-items-center">
                                 <div>

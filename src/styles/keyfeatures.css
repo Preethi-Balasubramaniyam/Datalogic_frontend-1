@@ -5,6 +5,8 @@
 .subheading {
   color: #005da9;
   font-weight: 500;
+  display: flex;
+  align-items: center;
 }
 
 .card1 {

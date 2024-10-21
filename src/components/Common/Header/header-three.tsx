@@ -1,4 +1,4 @@
-import  { useState } from "react";
+import { useState } from "react";
 import { Navbar, Offcanvas } from "react-bootstrap";
 import "../../../styles/Header.css";
 import Container from "react-bootstrap/Container";
@@ -11,7 +11,7 @@ import close from "../../../assets/header/12.svg";
 
 const HeaderThree = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-  const [isSoftwareDropdownOpen, setIsSoftwareDropdownOpen] = useState(false);
+  // const [isSoftwareDropdownOpen, setIsSoftwareDropdownOpen] = useState(false);
   const [showOffcanvas, setShowOffcanvas] = useState(false); // State for off-canvas
 
   const handleToggleDropdown = (
@@ -20,19 +20,19 @@ const HeaderThree = () => {
     setIsDropdownOpen(isOpen);
   };
 
-  const handleSoftwareToggleDropdown = (
-    isOpen: boolean | ((prevState: boolean) => boolean)
-  ) => {
-    setIsSoftwareDropdownOpen(isOpen);
-  };
+  // const handleSoftwareToggleDropdown = (
+  //   isOpen: boolean | ((prevState: boolean) => boolean)
+  // ) => {
+  //   setIsSoftwareDropdownOpen(isOpen);
+  // };
 
   const closeDropdown = () => {
     setIsDropdownOpen(false);
   };
 
-  const closeSoftwareDropdown = () => {
-    setIsSoftwareDropdownOpen(false);
-  };
+  // const closeSoftwareDropdown = () => {
+  //   setIsSoftwareDropdownOpen(false);
+  // };
 
   const toggleOffcanvas = () => setShowOffcanvas(!showOffcanvas);
 
@@ -41,7 +41,6 @@ const HeaderThree = () => {
       <Navbar expand="lg" className="bg-body-tertiary p-0">
         <Container fluid id="nav-three">
           <Container>
-           
             <Navbar.Toggle
               aria-controls="offcanvasNavbar"
               onClick={toggleOffcanvas}
@@ -124,14 +123,14 @@ const HeaderThree = () => {
                             >
                               Cloud Services
                             </NavDropdown.Item>
+                          </Col>
+                          <Col>
                             <NavDropdown.Item
                               href="/services/security-services"
                               eventKey="2.5"
                             >
                               Security Services
                             </NavDropdown.Item>
-                          </Col>
-                          <Col>
                             <NavDropdown.Item
                               href="/services/ai-machine-learning"
                               eventKey="2.6"
@@ -148,19 +147,7 @@ const HeaderThree = () => {
                               href="/services/cloud-solutions"
                               eventKey="2.8"
                             >
-                              Cloud Solutions
-                            </NavDropdown.Item>
-                            <NavDropdown.Item
-                              href="/services/software-architecture"
-                              eventKey="2.9"
-                            >
-                              Software Architecture
-                            </NavDropdown.Item>
-                            <NavDropdown.Item
-                              href="/services/blockchain-solutions"
-                              eventKey="2.10"
-                            >
-                              Blockchain Solutions
+                              UI/UX Designs
                             </NavDropdown.Item>
                           </Col>
                           <Col>
@@ -168,31 +155,25 @@ const HeaderThree = () => {
                               href="/services/technical-support"
                               eventKey="2.11"
                             >
-                              Technical Support
+                              Software Testing(QA)
                             </NavDropdown.Item>
                             <NavDropdown.Item
                               href="/services/it-management"
                               eventKey="2.12"
                             >
-                              IT Management
+                              Embedded Systems
                             </NavDropdown.Item>
                             <NavDropdown.Item
                               href="/services/cybersecurity"
                               eventKey="2.13"
                             >
-                              Cybersecurity
+                              Integration Services
                             </NavDropdown.Item>
                             <NavDropdown.Item
                               href="/services/devops"
                               eventKey="2.14"
                             >
-                              DevOps
-                            </NavDropdown.Item>
-                            <NavDropdown.Item
-                              href="/services/network-infrastructure"
-                              eventKey="2.15"
-                            >
-                              Network Infrastructure
+                              Consulting And Advisory
                             </NavDropdown.Item>
                           </Col>
                           <Col>
@@ -200,13 +181,19 @@ const HeaderThree = () => {
                               href="/services/ai-ml-integration"
                               eventKey="2.16"
                             >
-                              AI & ML Integration
+                              Maintenance & Support
                             </NavDropdown.Item>
                             <NavDropdown.Item
                               href="/services/data-analytics"
                               eventKey="2.17"
                             >
-                              Data Analytics
+                              AR/VR Development{" "}
+                            </NavDropdown.Item>
+                            <NavDropdown.Item
+                              href="/services/network-infrastructure"
+                              eventKey="2.15"
+                            >
+                              Roboting Process Automation{" "}
                             </NavDropdown.Item>
                           </Col>
                         </Row>
@@ -215,8 +202,10 @@ const HeaderThree = () => {
                   </NavDropdown>
 
                   {/* Dropdown for Software Training */}
-                  <NavDropdown
+                  {/* <NavDropdown
+                  
                     title={
+                      <a href="/courses/" className="software-training-link text-white">
                       <span>
                         Software Training
                         <img
@@ -227,6 +216,7 @@ const HeaderThree = () => {
                           }`}
                         />
                       </span>
+                      </a>
                     }
                     id="software-training-dropdown"
                     className="nav-item ps-3 pe-3 services"
@@ -302,10 +292,14 @@ const HeaderThree = () => {
                             </NavDropdown.Item>
                           </Col>
                         </Row>
-                      </Container>
+                      </Container> 
                     </div>
-                  </NavDropdown>
-
+                  </NavDropdown> */}
+                  <Nav.Item className="nav-item ps-3 pe-3">
+                    <Nav.Link eventKey="3" href="/courses" title="Item">
+                      Software Training
+                    </Nav.Link>
+                  </Nav.Item>
                   <Nav.Item className="nav-item ps-3 pe-3">
                     <Nav.Link eventKey="4" href="/career" title="Item">
                       Careers

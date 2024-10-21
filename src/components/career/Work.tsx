@@ -7,7 +7,7 @@ const Work = () => {
     <Container>
         <Row className="m-4 pt-5">
 
-            <Col>
+            <Col lg={6}>
                 <Row className="d-flex gap10">
                     <Col lg={12} className="d-flex align-items-center">
                         <div>
@@ -33,7 +33,7 @@ const Work = () => {
                    
                 </Row>
             </Col>
-            <Col>
+            <Col lg={6}>
                 <img src={CareerLeft} alt="" className="careerImg"/>
             </Col>
         </Row>

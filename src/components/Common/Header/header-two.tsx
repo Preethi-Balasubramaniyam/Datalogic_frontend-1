@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Image1 from "../../../assets/header/logo.svg";
 
-import Image2 from "../../../assets/header/8.svg";
+// import Image2 from "../../../assets/header/8.svg";
 import Image3 from "../../../assets/header/7.svg";
 import Image4 from "../../../assets/header/cta-2.svg";
 
@@ -18,7 +18,7 @@ const headertwo = () => {
               <div className="social-icons d-flex justify-content-around ">
                 <div className="p-2">
                   <a
-                    href="https://www.facebook.com"
+                    href="/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -27,7 +27,7 @@ const headertwo = () => {
                 </div>
               </div>
             </Navbar>
-            <Navbar id="search-section" className="col-lg-6">
+            {/* <Navbar id="search-section" className="col-lg-6">
               <div className="search d-flex justify-content-between align-items-center">
                 <p className="mb-0 p-2">What do you want to search?</p>
                 <div className="search-icon  d-flex justify-content-center align-items-center m-2">
@@ -40,7 +40,7 @@ const headertwo = () => {
                   />
                 </div>
               </div>
-            </Navbar>
+            </Navbar> */}
 
             <Navbar className="navRight justify-content-end">
               <Nav className="col-lg-12 d-flex align-items-center">

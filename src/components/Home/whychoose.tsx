@@ -21,7 +21,9 @@ const whychoose = () => {
           <h4 className="pt-4">Vision</h4>
           <p className="mt-4">Growing towards success with each passing day.</p>
           <div id="why-us">
-            <span className="subheading">Why Choose US</span>
+            <span className="subheading">Why Choose Us
+            <span className="line"></span>
+            </span>
             <div className="why-points ">
               <Row>
                 <Col lg={6} md={12} className="d-flex why">

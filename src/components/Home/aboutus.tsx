@@ -19,7 +19,10 @@ const aboutus = () => {
           </Col>
 
           <Col lg={6} md={12} className="about">
-            <span className="subheading">About us</span>
+            <span className="subheading">About us
+            <span className="line"></span>
+
+            </span>
             <h2>Welcome To GU Datalogic</h2>
             <p className="mt-4">
               Welcome to GU Datalogic, a forward-thinking company dedicated to

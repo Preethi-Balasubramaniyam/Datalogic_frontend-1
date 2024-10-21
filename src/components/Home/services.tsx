@@ -267,7 +267,9 @@ const Services = () => {
     <Container fluid className="services-slider pt-5 ">
       <Row>
         <Col className="align-content-center mb-3">
-          <h4 className="text-white text-center">Services</h4>
+          <h4 className="text-white text-center services"> <span className="line"></span>Services
+          <span className="line"></span>
+          </h4>
           <h2 className="text-white text-center">
             We offering best services for you
           </h2>

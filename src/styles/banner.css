@@ -103,7 +103,9 @@
     font-size: 14px;
     transform: translate(-50%, -50%);
   }
-
+.banner-text p{
+  display: none !important;
+}
   .banner-text span {
     font-size: 20px; /* Adjust font size for mobile */
   }

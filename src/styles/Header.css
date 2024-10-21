@@ -103,9 +103,12 @@
   .megamenu-services .dropdown-menu {
     width: 100vw;
   }
+  .contact img{
+    display: none !important;
+  }
 
   .megamenu-services {
-    left: 10vw !important;
+    left: 6vw !important;
     width: 90vw;
     max-height: 100vh;
     overflow-y: auto;
@@ -124,6 +127,7 @@
   color: #005da9 !important;
   opacity: 1;
   font-size: 24px;
+  padding-left: 35px;
 }
 
 .megamenu-services .col {
@@ -188,4 +192,12 @@
 
 .offcanvas-body {
   background: #045C5D 0% 0% no-repeat padding-box !important;
+}
+
+.subheading .line {
+  width: 12px;
+  height: 3px;
+  background-color: #005DA9;
+  margin: 0px 0px 0px 0.2rem;
+  display: inline-block;
 }

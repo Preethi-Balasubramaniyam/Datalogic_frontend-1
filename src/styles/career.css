@@ -1,35 +1,41 @@
-#careers .line{
-width: 20px;
-height: 3px;
-background-color: blue;
-margin: 0px 0px 0px 15px;
-}
-#careers .careerImg{
-width: 90%;
+#careers .line {
+    width: 20px;
+    height: 3px;
+    background-color: blue;
+    margin: 0px 0px 0px 15px;
 }
 
-#careers button{
-   background-color: var(--Mid-blue);
-   color: white;
+#careers .careerImg {
+    width: 90%;
 }
-#careers .HappyDiv{
+
+#careers button {
+    background-color: var(--Mid-blue);
+    color: white;
+}
+
+#careers .HappyDiv {
     padding: 20px 20px;
-    background-color:var(--Light-White) ;
+    background-color: var(--Light-White);
     border: 0.5px solid #CBD5D5;
     border-radius: 8px;
 }
-#careers .searchjob{
+
+#careers .searchjob {
     background-color: var(--Light-White);
-padding: 30px 0px;
+    padding: 30px 0px;
 }
-.searchscroll{
+
+.searchscroll {
     overflow-x: scroll;
     flex-wrap: nowrap;
 }
+
 .searchscroll::-webkit-scrollbar {
     width: 0px;
 }
-#careers .searchScrollCol{
+
+#careers .searchScrollCol {
     background-color: white;
     border-radius: 8px;
     border: 0.5px solid #DCDCDC;
@@ -37,10 +43,9 @@ padding: 30px 0px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    text-align: start;
 }
-#careers .searchScroll>div{
-   
-}
+
 
 #careers ul li::marker {
     content: "✔";
@@ -48,42 +53,46 @@ padding: 30px 0px;
     font-size: 15px;
 }
 
-#careers ul li{
+#careers ul li {
     padding: 8px 5px;
 }
-#careers .fileupload{
-    background: rgba( 100, 139, 172, 0.9 );
-backdrop-filter: blur( 0px );
--webkit-backdrop-filter: blur( 17px );
-border-radius: 6px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
-height: 250px;
-margin-bottom:40px ;
-padding: 30px 30px;
-width: 85%;
+
+#careers .fileupload {
+    background: rgba(100, 139, 172, 0.9);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(17px);
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    height: 250px;
+    margin-bottom: 40px;
+    padding: 30px 30px;
+    width: 85%;
 }
-.fileDiv{
+
+.fileDiv {
     position: relative;
 }
-#careers input[type="file"]{
+
+#careers input[type="file"] {
     opacity: 1;
     position: absolute;
-    left:0;
+    left: 0;
     top: 40px;
-    height:40px;
+    height: 40px;
     border-radius: 2px;
     background-color: white;
     width: 100%;
 }
+
 #careers input[type="file"]::-webkit-file-upload-button {
     display: none;
- }
- #careers .fileDiv button{
+}
+
+#careers .fileDiv button {
     opacity: 1;
     position: absolute;
-    right:0px;
+    right: 0px;
     top: 40px;
-    /* height:40px; */
     border: none;
     outline: none;
     z-index: 0;
@@ -92,10 +101,14 @@ width: 85%;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
 }
-#careers .fileDiv p{
+
+#careers .fileDiv p {
     opacity: 1;
     position: absolute;
-    left:0;
+    left: 0;
     top: 85px;
-    height:50px;
+    height: 50px;
+}
+.search-scroll-swiper .swiper-button-prev, .swiper-button-next{
+    content: none !important;
 }

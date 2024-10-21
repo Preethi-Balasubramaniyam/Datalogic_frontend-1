@@ -12,7 +12,9 @@ const Keyfeatures = () => {
       <Container>
         <Row>
           <Col lg={6} md={12}>
-            <span className="subheading">Features</span>
+            <span className="subheading">Features
+            <span className="line"></span>
+            </span>
             <h2>Key Features of GU Datalogic</h2>
             <p className="mt-4">
               A software company builds innovative, user-friendly solutions

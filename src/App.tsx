@@ -9,6 +9,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Job from "./components/career/Job";
 import Software from "./pages/Services/Software-Development";
+import Courses from "./pages/Courses";
 
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
         <Route path="/contact-us/" element={<ContactUs />} />
         <Route path="/career/" element={<Career />} />
         <Route path="/job/" element={<Job />} />
-        <Route path="services/software-development/" element={<Software />} />
+        <Route path="/services/software-development/" element={<Software />} />
+        <Route path="/courses/" element={<Courses />} />
 
         <Route path="*" element={<NotFound />} />
       </Routes>

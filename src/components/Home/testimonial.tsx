@@ -18,7 +18,9 @@ const Testimonial = () => {
             md={12}
             className="d-flex flex-column justify-content-center "
           >
-            <h5 className="subheading">Testimonials</h5>
+            <h5 className="subheading">Testimonials
+            <span className="line"></span>
+            </h5>
             <h2 className="testimonial-heading text-left text-black">
               The Stories that inspire us everyday
             </h2>
@@ -45,12 +47,26 @@ const Testimonial = () => {
               autoplay={{ delay: 5000 }}
               loop={true}
               spaceBetween={30}
-              slidesPerView={2}
+              slidesPerView={2} // Default for larger screens
+              breakpoints={{
+                320: {
+                  slidesPerView: 1, // Mobile screens
+                  spaceBetween: 10,
+                },
+                768: {
+                  slidesPerView: 1, // Tablets
+                  spaceBetween: 20,
+                },
+                1024: {
+                  slidesPerView: 2, // Larger screens
+                  spaceBetween: 30,
+                },
+              }}
               className="testimonial-swiper"
             >
               <SwiperSlide>
                 <div className="testimonial-slide">
-                  <img src={icon} className="qoute-icon" />
+                  <img src={icon} className="qoute-icon" alt="quote icon" />
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
@@ -58,19 +74,17 @@ const Testimonial = () => {
                     ullamco laboris nisi ut aliquip ex ea commodo consequat.
                   </p>
                   <div className="client-data d-flex">
-                    <img src={Client} className="client-image" />
+                    <img src={Client} className="client-image" alt="Client" />
                     <div className="ps-3 client-info">
-                    <p className="mb-0">Aabidah Hussian</p>
-                    <span className="mt-0">-Student</span>
+                      <p className="mb-0">Aabidah Hussian</p>
+                      <span className="mt-0">-Student</span>
                     </div>
-                   
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="testimonial-slide">
-                  <img src={icon} className="qoute-icon" />
-
+                  <img src={icon} className="qoute-icon" alt="quote icon" />
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
@@ -78,19 +92,17 @@ const Testimonial = () => {
                     ullamco laboris nisi ut aliquip ex ea commodo consequat.
                   </p>
                   <div className="client-data d-flex">
-                    <img src={Client} className="client-image" />
+                    <img src={Client} className="client-image" alt="Client" />
                     <div className="ps-3 client-info">
-                    <p className="mb-0">Aabidah Hussian</p>
-                    <span className="mt-0">-Student</span>
+                      <p className="mb-0">Aabidah Hussian</p>
+                      <span className="mt-0">-Student</span>
                     </div>
-                   
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="testimonial-slide">
-                  <img src={icon} className="qoute-icon" />
-
+                  <img src={icon} className="qoute-icon" alt="quote icon" />
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
@@ -98,12 +110,11 @@ const Testimonial = () => {
                     ullamco laboris nisi ut aliquip ex ea commodo consequat.
                   </p>
                   <div className="client-data d-flex">
-                    <img src={Client} className="client-image" />
+                    <img src={Client} className="client-image" alt="Client" />
                     <div className="ps-3 client-info">
-                    <p className="mb-0">Aabidah Hussian</p>
-                    <span className="mt-0">-Student</span>
+                      <p className="mb-0">Aabidah Hussian</p>
+                      <span className="mt-0">-Student</span>
                     </div>
-                   
                   </div>
                 </div>
               </SwiperSlide>

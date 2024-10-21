@@ -18,7 +18,9 @@ const faq = () => {
 
           <Col lg={6} md={12} className="align-content-center">
             <div className="subheading-container">
-              <span className="subheading">FAQ</span>
+              <span className="subheading">FAQ
+              <span className="line"></span>
+              </span>
               <h3>Frequently Asked Questions</h3>
             </div>
             
